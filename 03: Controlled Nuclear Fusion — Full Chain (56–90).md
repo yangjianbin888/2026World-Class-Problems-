@@ -120,5 +120,3 @@
 88. **Wolframbasierte Fusionswerkstoffe:** Steuerung der Korngrenzenversprödung und Regelung der DBTT-Verschiebung.
 89. **SiC/SiC-Fusions-Verbundwerkstoffe:** Kriechunterdrückung unter hochtemperatur-Neutronenbestrahlung.
 90. **Fusions-LCOE-Pfad:** Levelized Cost of Electricity (LCOE) über den vollständigen Lebenszyklus unter 50 $/MWh gedrückt.
-
-如需继续排 **Season 02（量子计算）**、**Season 04（航天动力）** 或其他季的三语版，告诉我季数即可。
