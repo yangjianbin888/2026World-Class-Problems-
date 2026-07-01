@@ -1,4 +1,9 @@
 # Season 01: Lithography & Semiconductor Manufacturing Core (1–25)
+**Sorting Logic:** English (Global Standard) → Chinese (Original Context) → German (Precision Engineering)
+
+---
+
+## 1. English Version (Global Standard)
 
 1. **EUV Light Source:** Sn target plasma conversion efficiency (>6%) and debris contamination control.
 2. **EUV Mirrors:** Mo/Si multilayer film (>100 layers) with atomic-level interface roughness (<0.2nm).
@@ -28,7 +33,7 @@
 
 ---
 
-# 第一季：光刻机与半导体制造核心（1–25）
+## 2. 中文版（原始语境）
 
 1. **EUV光源：** 锡滴（Sn）靶等离子体转换效率（CE>6%）与碎屑污染控制。
 2. **EUV反射镜：** Mo/Si多层膜（>100层）原子级界面粗糙度（<0.2nm）。
@@ -55,3 +60,33 @@
 23. **航空单晶叶片：** 定向凝固温度梯度（>100K/cm）、杂晶抑制。
 24. **SiC/SiC陶瓷基复合材料（CMC）：** Hi-Nicalon纤维BN抗氧化涂层。
 25. **超精密P4级角接触轴承：** 预紧力自适应、高速热伸长补偿。
+
+---
+
+## 3. Deutsche Version (Präzisionsstandard)
+
+1. **EUV-Lichtquelle:** Plasma-Umwandlungseffizienz (>6%) beim Sn-Target und Steuerung der Trümmerkontamination.
+2. **EUV-Spiegel:** Mo/Si-Multilagenfilm (>100 Schichten) mit atomarer Grenzflächenrauheit (<0,2 nm).
+3. **Doppel-Wafer-Stages:** Nanometer-genaue (<1 nm) Synchronbewegung und Kompensation des Abbé-Fehlers.
+4. **Vakuumsysteme:** Reinheit >10⁻⁸ Pa und Kontrolle von Kohlenwasserstoff-Verunreinigungen.
+5. **Gitterinterferometer:** Pikometer-genaue (<10 pm) Wegmessung und Unterdrückung des thermischen Drifts.
+6. **ALD-Reaktorkammern:** Homogenität der Prekursor-Pulse und Step-Coverage (>99%).
+7. **Ionenimplantation:** Strahlstrom-Uniformität (>10 mA, <0,5%) und Energieverunreinigung (<0,1%).
+8. **CMP-Anlagen:** Genauigkeit des Polierdrucks (<1 psi) und Echtzeit-Kompensation des Pad-Verschleißes.
+9. **Defekterkennung:** Hochgeschwindigkeitsbildverarbeitung (>1000 wph) von >10 nm Defekten und KI-basierte Klassifizierung.
+10. **Flip-Chip-Bonden:** Planarität der Cu-Pfeiler (<1 μm) und Flusssteuerung des Underfills.
+11. **EUV-Photolack:** Auflösung chemisch verstärkter Resiste (<13 nm) und Linienrandrauheit (LER <2 nm).
+12. **ArF-Immersionsresist:** Langfristige Unterdrückung von Wasserflecken und blaseninduzierten Immersionsdefekten.
+13. **300-mm-Siliziumwafer:** Sauerstoffgehalt im Volumen (<10 ppb) und radiale Resistivitätsuniformität (<1%).
+14. **EUV-Maskensubstrate:** Glaskeramik mit ultraniedrigem Wärmeausdehnungskoeffizienten (CTE < ±30 ppb/K).
+15. **Hochreine Spezialgase:** NF₃-Reinheit >99,999% bei Spurenmetallverunreinigungen <0,1 ppb.
+16. **Sputtertargets:** Hochreine Ta-Targets (>99,995%), Kornorientierung und globale Dünnfilmuniformität.
+17. **CMP-Verbrauchsmaterialien:** Mikroporenstruktur der Polierpad (>50 μm) und hydrodynamische Optimierung der Rillen.
+18. **EDA-Vollfluss-Signoff:** Extraktion parasitärer Parameter für 7-nm- und GAA-Architekturen.
+19. **OPC-Computational Lithography:** Globale optimale Lösung für Sub-Resolution Assist Features (SRAF).
+20. **Hochleistungs-CPU/GPU:** Durchbruch der Leistungswand-Constraint bei Out-of-Order-Ausführungs-Mikroarchitekturen.
+21. **MLCC-Dünnschichtkeramik:** Dielektrikum <1 μm und Kompatibilität beim Co-Firing der Ni-Elektroden.
+22. **FPGA-Massenverdrahtung:** Latenz der LUT-Verbindungen und Balance der Routing-Kongestion.
+23. **Einkristall-Turbinenschaufeln:** Temperaturgradient bei gerichteter Erstarrung (>100 K/cm) und Unterdrückung von Streukristallen.
+24. **SiC/SiC-Keramikmatrix-Verbundwerkstoffe (CMC):** BN-Oxidationsschutzschicht für Hi-Nicalon-Fasern.
+25. **Ultrapräzise P4-Winkelkontaktlager:** Adaptive Vorspannung und Kompensation der thermischen Längenausdehnung bei hohen Drehzahlen.
