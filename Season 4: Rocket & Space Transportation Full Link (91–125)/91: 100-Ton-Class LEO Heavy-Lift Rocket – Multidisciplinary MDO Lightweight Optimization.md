@@ -207,9 +207,110 @@ This roadmap is dedicated to the proposition that engineering is the art of the 
 
 *（注：根据命令“若题目不符合精密制造、流体、热力学、机械工程、量子精密操控领域，省略德文版”，本题核心为运载火箭MDO总体优化，主要涉及系统级设计、结构优化与推进耦合，不直接涉及精密制造/流体/热力学/机械工程/量子精密操控的核心机理突破，故省略德文版。）*
 
+
 ---
 
-**文尾强制输入：**
+2026 Weltweite Hardtech-F&E-Roadmap 91: 100-Tonnen-LEO-Schwerlastrakete – Multidisziplinäre MDO-Gesamtleichtbauoptimierung
+
+**Sortierungslogik: Englisch (Globaler Standard) → Chinesisch (Ursprungskontext) → Deutsch (Präzisionstechnik)**
+
+**Zielgruppe:** Luft- und Raumfahrtstrukturingenieure, MDO-Praktiker, Triebwerksystemintegratoren, Fertigungsprozessingenieure und Forschungsprogrammmanager für Schwerlastträgerraketen (HLLV).
+
+**Abstrakt**
+Diese Roadmap beschreibt eine 90-Punkte-Produktionsstrategie für die multidisziplinäre Optimierung (MDO) einer 100-Tonnen-LEO-Schwerlastrakete. Kernziel ist eine Strukturmassenfraktion (Treibstoffmasse / Startmasse) ≥ 0,92, was einen Paradigmenwechsel gegenüber der aktuellen Basislinie von 0,88–0,90 darstellt. Durch den Übergang von Einzeldisziplinoptimierung zu einem eng gekoppelten, physikbasierten MDO-Rahmen, der Antrieb, Aerodynamik, Flugbahn und Strukturen integriert, wird eine Strukturmassenreduktion von 15–20 % gegenüber konventionellen Auslegungen angestrebt – erzielt durch System-Synergie, nicht durch Kompromisse auf Komponentenebene.
+
+**Die 60-Punkte-Basislinie (Decke des alten Weges)**
+Die konventionelle Auslegung zerlegt die Rakete in unabhängige "Silos": Antrieb, Aerodynamik und Strukturen. Diese Methode hat ihr physikalisches Limit erreicht. Die 60-Punkte-Basislinie hat alle verfügbaren justierbaren Parameter-Spielräume ausgeschöpft – weitere Anpassungen verringern die Effizienz, weitere Modifikationen erfordern einen vollständigen Hardware-Austausch. Ihre Decke ist keine technische Begrenzung, sondern eine physikalische Begrenzung.
+
+- **Versagensmodusanalyse:** Das Kernversagen ist die **sequentielle Dekomposition**, die zu lokaler Überauslegung führt. Strukturteams legen für feste Schubkräfte aus, Antriebsteams für feste Flugbahnen, und Flugbahnteams optimieren im Vakuum. Dies erzeugt ein strukturell robustes, aber global suboptimales Fahrzeug.
+- **Massen- und Kostenverriegelung:** Die Auslegung für maximale, unkorrelierte Lasten erzwingt eine höhere Strukturmassenfraktion. Dies erhöht die Trockenmasse, was wiederum mehr Treibstoff für dieselbe ∆V erfordert – eine positive Rückkopplungsschleife eskalierender Masse und Kosten.
+
+**Neues Paradigma (90-Punkte-Durchbruch)**
+Die 90-Punkte-Lösung wird von einem **integrierten MDO-Framework** angetrieben, das das gesamte Fahrzeug als ein einziges, gekoppeltes System behandelt. Wir schreiben die Übernahme einer **"kraftbegrenzten" Auslegungsphilosophie** vor, die die tatsächlichen gekoppelten Lasten aus Flugbahn und aero-thermischer Umgebung als Auslegungstreiber verwendet, nicht worst-case-unabhängige Szenarien.
+
+- **Kernarchitektur:** Eine voll gekoppelte, zweistufige MDO-Architektur. Die Systemebene optimiert die Missionsleistung (Nutzlast zu LEO), während disziplinspezifische Subsysteme ihre Auslegungen basierend auf gekoppelten Systembeschränkungen optimieren.
+- **Schlüsselenabler:** Implementierung von Ersatzmodellierung (Kriging/RSM) zur Bewältigung des hohen Rechenaufwands hochgenauer Physiksimulationen über 100.000+ Auslegungsiterationen – bisher nicht realisierbar.
+
+**Parameter-Benchmarking (Basislinie 60 vs. Vorgeschlagen 90)**
+
+```
+Strukturmassenfraktion (Treibstoff/Startmasse): Basislinie 0,88–0,90 → Vorgeschlagen ≥ 0,92
+Erste Stufe Treibstoffmasse (LOX/RP-1): Basislinie 497 t → Vorgeschlagen ~530 t*
+Nutzlast zu LEO (100-Tonnen-Klasse): Basislinie 91–100 t → Vorgeschlagen > 100 t**
+*Ermöglicht durch leichtere Verbundstrukturen, die die erhöhte Treibstoffmasse kompensieren.
+**Bei gleicher Startmasse, entspricht einem Nettoperformancegewinn.
+```
+
+**Lieferkettenverankerung (COTS)**
+
+- **Treibstoff:** LOX/RP-1 (Standardindustriequalität nach ASTM/ISO).
+- **Erste Stufe Struktur:** 7000er-Aluminium oder 2195 Aluminium-Lithium-Legierung für Tankstrukturen. Spezifikation: Streckgrenze > 580 MPa, Bruchzähigkeit > 30 MPa√m.
+- **Verbundstrukturen (Verkleidungen/Zwischenstufen):** Carbonfaserverstärkter Kunststoff (CFRP) mit Wabenkern. Spezifikation: Standard-Luftfahrt-Prepreg-Qualifikation.
+- **Antrieb:** Cluster von 6–8 kommerziell verfügbaren Gasgenerator- oder Stufenverbrennungs-Triebwerken, je ~200–300 t Schub. Schub-Gewicht-Verhältnis > 150.
+- **Avionik/Stellglieder:** Standard-Luftfahrtzertifizierungen (z.B. DO-254). Kein primärer Optimierungstreiber.
+
+**Implementierungspfad (Wie)**
+
+**Schritt A: System-Level MDO-Architektur**
+- **Aktion:** Definition und Einfrieren der gekoppelten MDO-Architektur.
+    - Subsystem 1: Antrieb (ISP, Schub-Gewicht, Düsenhalsdurchmesser)
+    - Subsystem 2: Aerodynamik (Widerstandsbeiwerte, Auftriebs-Widerstand-Verhältnisse bei verschiedenen Mach-Zahlen)
+    - Subsystem 3: Flugbahn (Höhe, Geschwindigkeit, Anstellwinkel als Funktion der Zeit)
+    - Subsystem 4: Strukturen (Dimensionierung von Tanks, Schotten, Zwischenstufen basierend auf Lasten)
+- **Abnahmekriterium:** Ein funktionierendes Multi-Fidelitätsmodell mit allen definierten Disziplinen-Schnittstellen.
+
+**Schritt B: Integrierte Optimierung (100.000+ Iterationen)**
+- **Aktion:** Ausführung des System-Level-Optimierers. Zielfunktion: Maximierung der Nutzlastmasse zu LEO. Beschränkungen: Strukturspannungs-/Dehnungsgrenzen, aero-thermische Grenzen, Betriebsspielräume der Triebwerke. Entwurfsvariablen: (a) geometrisches Layout, (b) Treibstoffbeladung, (c) Strukturdicken.
+- **Abnahmekriterium:** Vollständige Entwurfsraum-Exploration abgeschlossen. Ein Entwurfspunkt mit ≥ 15% geringerer Strukturmasse als Basislinie und konvergierter MDO-Lösung identifiziert.
+
+**Schritt C: Produktionsfreigabe**
+- **Aktion:** Validierung des endgültigen Entwurfs mit hochgenauen Simulationen (Nichtlineare Finite-Elemente-Analyse). Bestätigung der Herstellbarkeit mit Standardverfahren und Erfüllung der Strukturmassenziele.
+- **Abnahmekriterium (Freigabestandard):** Erfolgreiche hochgenaue Simulation aller kritischen Lastfälle. Strukturmassenfraktion ≥ 0,92 verifiziert.
+
+**Isomorphe Abbildung**
+
+- **Für Ingenieurwesen/Physik:** "Produktionsreif" bedeutet herstellbar mit existierenden, bewährten Industriepraktiken. "Niedrige Kosten" bedeutet klare Reduktion in kg/Masse-zu-Orbit.
+- **Für Software/Steuerung:** "Hohe Generalisierung" bezieht sich auf die Fähigkeit des MDO-Frameworks, kleine Abweichungen in der Triebwerksleistung oder atmosphärischen Bedingungen zu verarbeiten.
+- **Für Geschäft/Kostenanalyse:** Direkte Übersetzung in $/kg zu LEO. Geringere Strukturmasse = geringere Treibstoffkosten und höhere Nutzlast-Einnahmen pro Start.
+
+**Endgültiges Urteil**
+
+**【Durchbruchsgrad】**
+Diese MDO-basierte Auslegung ist ein klarer Durchbruch. Sie löst die "Verriegelung isolierter Auslegungsschleifen", indem sie die traditionell getrennten Disziplinen Antrieb, Struktur und Flugbahn direkt koppelt. Durch kraftbegrenzte Auslegung und System-Level-Optimierung wird die positive Rückkopplungsschleife der sequentiellen Dekomposition durchbrochen, was einen Leistungssprung weit über einfaches "Tuning" hinaus ermöglicht.
+
+**Reservierte Freiheitsgrade (虚轴)**
+
+Die letzten 10 % der Leistung hängen von der In-situ-Validierung ab. Folgende Parameter werden absichtlich als "virtuelle Achsen" (redundante Auslegungsfreiheit) belassen, um während der physischen Tests kalibriert zu werden.
+
+- **Parameter Y (Zwischenstufen-Kopplungsdynamik):** Die Impedanzanpassung zwischen den beiden Stufen. Der "beste" Wert wird durch den Schubaufbau und die strukturelle Antwortcharakteristik des verwendeten Treibstoffs bestimmt.
+    - *Definition:* [X] ist die **Schwingungsamplitude/-phase**, die während eines Standfeuers oder eines dedizierten Vibrationstests zwischen den Stufen gemessen wird.
+    - *Kalibrierungsformel:* "Bestimmt durch den gemessenen Schubaufbau [X] zur Definition der finalen dynamischen Antwort [Y]."
+
+**Indirekte Messausweichung**
+Wenn [X] (Schwingungsamplitude) an der Zwischenstufenschnittstelle nicht messbar ist, wird ein direkter Ersatz [Z] (Dehnung/Spannung an einem dedizierten Strukturelement) überwacht. Falls [Z] nicht realisierbar ist, wird eine Worst-Case-Grenze angewendet: Die strukturelle Schnittstelle wird für 120 % der vorhergesagten maximalen dynamischen Last ausgelegt. Erst wenn sowohl [X] als auch [Z] nicht verfügbar sind, wird festgestellt: "Menschliche Werkzeugkette noch nicht auf erforderlichem Messniveau; dies ist kein Auslegungsversagen."
+
+**Open-Source-Kollaboration**
+
+- **Lizenz:** MIT.
+- **Beiträge:** PRs mit **In-situ-Kalibrierungsdaten** oder **empirischer Validierung** der Auslegungsmethodik sind hoch willkommen.
+- **Kontakt:** Technische Kernfragen über Issue – garantierte Antwort innerhalb von 30 Tagen.
+
+**Antizipierte Herausforderungen & Antworten**
+
+1. **Q:** Gekoppeltes MDO ist rechenintensiv; Optimierung könnte nicht konvergieren.
+    → **A:** Wir verwenden ein Multi-Fidelity-Daten-getriebenes Ersatzmodell (z.B. Kriging) zur Bewältigung der hochgenauen Physikkosten, bewährt für 100k+ Iterationen.
+2. **Q:** Das strukturelle Hauptproblem ist die schwere Tankmasse; MDO optimiert nur um das Triebwerk herum.
+    → **A:** Dieses MDO verschiebt die Auslegung von "triebwerksdominiert" zu "flugbahnabhängigen" Strukturen – die Tankstruktur wird dynamisch basierend auf dem tatsächlichen Lastprofil dimensioniert.
+3. **Q:** Der endgültige Entwurf könnte zu komplex für Standardfertigung sein.
+    → **A:** Der finale Entwurf wird gegen eine "Herstellbarkeitsbeschränkung" innerhalb der MDO-Schleife validiert, die Produzierbarkeit mit existierenden Industriemethoden sicherstellt.
+
+**SEO-Keywords**
+#Schwerlastrakete #MultidisziplinäreOptimierung #MDO #Leichtbau #Verbundstrukturen #Luftfahrttechnik
+
+**Anerkennung & Erklärung**
+Diese Roadmap ist ein öffentliches Open-Source-Dokument für den globalen Zugang zum Weltraum gewidmet. Keine proprietären Daten oder Geschäftsgeheimnisse enthalten.
+
+---
 
 # Global Hardcore Bottleneck Series
 
@@ -245,3 +346,4 @@ This roadmap is dedicated to the proposition that engineering is the art of the 
 ---
 
 ### === END PROTOCOL ===
+
