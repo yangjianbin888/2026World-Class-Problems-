@@ -94,7 +94,7 @@ Sorting Logic → Abstract → Pain Point Definition → Old Route Ceiling (60-p
 | **Contributions** | Pull Requests accepted. Priority given to `[requires on-site calibration]` measurement data (include test environment and device specs) |
 | **Issues** | Report physical errors, parameter deviations, or supply chain anomalies directly via Issue |
 | **Response Time** | Key technical inquiries answered within 30 days |
-| **Contact** | 49075075@qq.com |
+| **Contact** | 49075061@qq.com |
 
 
 ## Legal Disclaimer
@@ -211,7 +211,7 @@ Sorting Logic → Abstract → Pain Point Definition → Old Route Ceiling (60-p
 | **贡献方式** | 提交Pull Request，优先接收 `[需现场标定]` 的实测数据（附测试环境与设备型号） |
 | **问题反馈** | 直接提交Issue，注明物理错误、参数偏差或供应链异常 |
 | **响应承诺** | 关键技术质询将在30天内给出确定性答复 |
-| **联系邮箱** | 49075075@qq.com |
+| **联系邮箱** | 49075061@qq.com |
 
 
 ## 声明
