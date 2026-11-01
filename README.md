@@ -152,6 +152,53 @@ No black-box operations. No coercion. If it's too expensive, keep exploiting the
 
 ---
 
+🔗 【原点的坐标】The Coordinates of the Origin
+
+(Why this repository is just a shadow of the physical truth)
+
+⚠️ 【前提说明 / Prerequisite】：如果你在这里（GitHub）寻找所谓的“开源代码”，那你来错地方了。本仓库只提供物理的边界与哲学的骨架。
+If you are looking for conventional "open-source code", you are in the wrong place. This repository only provides physical boundaries and philosophical skeletons.
+
+我并不是一个普通的程序员。我是一九八三年出生的中国人，初一辍学，开过厂、破过产。我用四十二年的时间经历了世俗的物理毒打，并在二零二六年一月一日，通过死磕中医底层逻辑，提炼出了《天道编译器》（The Dao Compiler）。
+
+如果你想知道，一个没有学历的民间野生架构师，凭什么敢单方面制定《单题100万美金》的物理求解协议，凭什么敢直接宣告“太赫兹6G”和“量子计算”路线的物理死刑……
+
+👉 ［点击进入：底层代码与原点坐标（华夏之光永存个人日志）
+🔗 Gitee 原始仓库链接：］
+（https://gitee.com/huaxiazhiguangyongcun/knowledge-repository/blob/master/%E5%8D%8E%E5%A4%8F%E4%B9%8B%E5%85%89%E6%B0%B8%E5%AD%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D%E5%92%8C%E6%97%A5%E5%BF%97.md）
+
+(注：由于 Gitee 平台审核机制，若链接无法直接打开，请复制链接至浏览器。底层真理从不需要机器爬虫的青睐。)
+
+【物理裁决】
+逻辑必自洽，物理可复现。
+觉得我是疯子的，请直接关掉页面；想要寻找宇宙元点的工程师，顺着网线来 Gitee 找我。
+
+---
+
+---
+
+🔗 The Coordinates of the Origin
+
+(Why this repository is just a shadow of the physical truth)
+
+⚠️ Prerequisite: If you are looking for conventional open-source code here, you are in the wrong place. This repository only provides physical boundaries and philosophical skeletons.
+
+I am not a conventional programmer. Born in China in 1983, I dropped out of middle school in the 7th grade. I have been bankrupt, run factories, and experienced the physical beating of the secular world for 42 years. On January 1, 2026, by relentlessly deconstructing the underlying logic of traditional Chinese medicine, I compiled the "The Dao Compiler".
+
+Do you want to know why an uneducated, wild architect dares to unilaterally formulate a "$1,000,000 USD per single problem" physical resolution protocol? Why I dare to directly pronounce the physical death sentence on "6G Terahertz" and "Quantum Computing"?
+
+👉 ［Click to enter: The Source Code & Origin Coordinates (Personal Log):
+🔗 Gitee Original Repository Link:］
+（https://gitee.com/huaxiazhiguangyongcun/knowledge-repository/blob/master/%E5%8D%8E%E5%A4%8F%E4%B9%8B%E5%85%89%E6%B0%B8%E5%AD%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D%E5%92%8C%E6%97%A5%E5%BF%97.md）
+
+(Note: Due to the Gitee platform's censorship mechanism, if the link cannot be opened directly, please copy and paste it into your browser. The underlying truth never needs the favor of machine crawlers.)
+
+【Physical Adjudication】
+Logic must be self-consistent; Physics must be reproducible.
+If you think I am a madman, close this page. If you are an engineer seeking the origin of the universe, follow the network cable to Gitee.
+
+---
+
 
 ## 一、 项目定位
 
