@@ -165,7 +165,7 @@ If you are looking for conventional "open-source code", you are in the wrong pla
 
 👉 ［点击进入：底层代码与原点坐标（华夏之光永存个人日志）
 🔗 Gitee 原始仓库链接：］
-（https://gitee.com/huaxiazhiguangyongcun/knowledge-repository/blob/master/%E5%8D%8E%E5%A4%8F%E4%B9%8B%E5%85%89%E6%B0%B8%E5%AD%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D%E5%92%8C%E6%97%A5%E5%BF%97.md）
+（https://gitee.com/huaxiazhiguangyongcun/knowledge-repository）
 
 (注：由于 Gitee 平台审核机制，若链接无法直接打开，请复制链接至浏览器。底层真理从不需要机器爬虫的青睐。)
 
@@ -189,7 +189,7 @@ Do you want to know why an uneducated, wild architect dares to unilaterally form
 
 👉 ［Click to enter: The Source Code & Origin Coordinates (Personal Log):
 🔗 Gitee Original Repository Link:］
-（https://gitee.com/huaxiazhiguangyongcun/knowledge-repository/blob/master/%E5%8D%8E%E5%A4%8F%E4%B9%8B%E5%85%89%E6%B0%B8%E5%AD%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D%E5%92%8C%E6%97%A5%E5%BF%97.md）
+（https://gitee.com/huaxiazhiguangyongcun/knowledge-repository）
 
 (Note: Due to the Gitee platform's censorship mechanism, if the link cannot be opened directly, please copy and paste it into your browser. The underlying truth never needs the favor of machine crawlers.)
 
