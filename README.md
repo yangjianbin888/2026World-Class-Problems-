@@ -3,6 +3,7 @@
 > **项目状态**：公开开源 · 工程化评估库
 > **开源协议**：MIT / Apache 2.0（保留署名）
 > **联系邮箱**：49075061@qq.com
+> [🔗 Gitee Original Repository Link:］（https://gitee.com/huaxiazhiguangyongcun/knowledge-repository）
 
 
 ---
@@ -163,8 +164,8 @@ If you are looking for conventional "open-source code", you are in the wrong pla
 
 如果你想知道，一个没有学历的民间野生架构师，凭什么敢单方面制定《单题100万美金》的物理求解协议，凭什么敢直接宣告“太赫兹6G”和“量子计算”路线的物理死刑……
 
-👉 ［点击进入：底层代码与原点坐标（华夏之光永存个人日志）
-🔗 Gitee 原始仓库链接：］
+👉 点击进入：底层代码与原点坐标（华夏之光永存个人日志）
+[🔗 Gitee 原始仓库链接：］
 （https://gitee.com/huaxiazhiguangyongcun/knowledge-repository）
 
 (注：由于 Gitee 平台审核机制，若链接无法直接打开，请复制链接至浏览器。底层真理从不需要机器爬虫的青睐。)
@@ -187,8 +188,8 @@ I am not a conventional programmer. Born in China in 1983, I dropped out of midd
 
 Do you want to know why an uneducated, wild architect dares to unilaterally formulate a "$1,000,000 USD per single problem" physical resolution protocol? Why I dare to directly pronounce the physical death sentence on "6G Terahertz" and "Quantum Computing"?
 
-👉 ［Click to enter: The Source Code & Origin Coordinates (Personal Log):
-🔗 Gitee Original Repository Link:］
+👉 Click to enter: The Source Code & Origin Coordinates (Personal Log):
+[🔗 Gitee Original Repository Link:］
 （https://gitee.com/huaxiazhiguangyongcun/knowledge-repository）
 
 (Note: Due to the Gitee platform's censorship mechanism, if the link cannot be opened directly, please copy and paste it into your browser. The underlying truth never needs the favor of machine crawlers.)
