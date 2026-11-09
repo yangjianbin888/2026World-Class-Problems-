@@ -1,6 +1,7 @@
 # 🏛️ The Constitutional Axiom: Trust = Physical Verification V6.1
 
 （省流：一 一个死锁解法一百万美金。二 包年一亿美金。详情看协议。物理只有抉择，没有两全。）
+（本协议的开源协议适配全球，包含作者母国，一视同仁。）
 
 **To All Potential Clients:**
 
