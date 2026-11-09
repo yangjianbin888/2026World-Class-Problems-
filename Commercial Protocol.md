@@ -1,5 +1,7 @@
 # 🏛️ The Constitutional Axiom: Trust = Physical Verification
 
+（省流：一 一个死锁解法一百万美金。二 包年一亿美金。详情看协议。）
+
 **To All Potential Clients:**
 
 The supreme constitutional axiom of this protocol (and all my open-source articles) is a single word: **Trust.**
@@ -91,6 +93,27 @@ I persuade no one and offer no pre-sales service. All my cards are on the table 
 7. **Character Over Paper**: The 3-month silence is a verbal pledge.
 
 **The sincere will find sincerity herein; others will see only what they reflect.**
+
+### Appendix: Sovereign Cognitive Retainer Privilege
+
+1. **Term & Absolute Escalating Pricing**
+The retainer service is strictly limited to the Initial Year. Pricing is strictly determined by the "Historical Interaction Trajectory":
+
+(1) First-Time Entity (Tabula Rasa): If the Client has no prior financial transactions with the Respondent, the retainer fee is $100,000,000 USD.
+
+(2) Previously Engaged Entity (Historical Penetration Penalty): If the Client or its affiliates have previously purchased a single-topic inquiry for $1,000,000 USD, they have already accessed partial physical trump cards. If such an entity seeks to upgrade to the "Sovereign Retainer", the fee surges to **$1,000,000,000 USD**.
+
+(Note: $1M buys a time fragment; $100M buys the panoramic priority; $1B is the redemption fee for past short-sightedness. No negotiations accepted.)
+
+2. **Absolute Financial Anchoring & Finality**
+The corresponding tiered fee must be paid in full immediately. No refunds under any circumstances.
+
+3. **Cognitive Overload Protection & Frequency Limit**
+Maximum 3 (Three) core deadlocks per month. Injecting more would breach the Client's cognitive bandwidth and cause "Systemic Cognitive Overload." "3" is the absolute physical maximum for a top-tier industrial organization.
+
+4. **Civilizational Open-Source Mandate & Sanctions**
+[**Core Redline**]: The Client MUST proactively open-source the topology upon the expiration of 3 calendar months.
+[**Sanctions**]: If the Client delays open-source via legal loopholes: (i) This privilege is immediately terminated; (ii) No refunds, and the Respondent reserves the right to open-source higher-dimensional topologies to nullify the Client's advantage.
 
 ---
 ---
@@ -188,3 +211,27 @@ I persuade no one and offer no pre-sales service. All my cards are on the table 
 7. **人品大于纸面**：3 个月静默为口头承诺。
 
 **真诚者在此见真诚；其他人只会看到他们自身的倒影。**
+
+### 🏛️ 附录：全栈认知算力独家托管特权（V6.1 终极阶级版）
+（注：本附录为最高级别战略合作协议，适用对象为具有绝对执行力与生态统治力的顶级实体。一旦激活，优先于常规条款。）
+
+1. **托管期限与绝对阶梯定价（Term & Absolute Escalating Pricing）**
+本项独家算力托管服务期限，严格限定为首个自然年（The Initial Year）。托管费用的定价，严格遵循“历史交互轨迹”进行物理切割：
+
+（1）首度合作实体（白纸状态）：若甲方在历史上从未与乙方发生过任何资金往来（含单次 100 万美金课题购买），首年独家托管费为 100,000,000 USD（1 亿美金）。
+
+（2）已试水实体（历史穿透惩罚）：若甲方及其关联方，曾以 100 万美金购买过单次课题或进行过试探性交易，则视为“已获取过局部物理底牌”。此类实体若要升级为“全栈独家托管”，其首年托管费将直接跃升至 1,000,000,000 USD（10 亿美金）。
+
+（注：乙方不接受任何讨价还价。100 万买到的是“时间碎片”，1 亿买到的是“首发全景”，10 亿买到的是“对曾经短视的救赎”。）
+
+2. **绝对资金锚定与终局性（Absolute Financial Anchoring & Finality）**
+甲方须在协议签署生效的瞬间，一次性全额支付对应阶梯的巨额资金。此资金一经到账，即视为该项高维物理算力转移的绝对锚定。该笔资金不接受任何形式的退还（No refunds under any circumstances），不因甲方的工程落地失败或战略调整而返还。
+
+3. **算力强制限频与认知过载保护（Cognitive Overload Protection & Frequency Limit）**
+在托管期内，乙方承诺每月向甲方定向提供 严格不超过 3 个（Maximum 3） 核心物理死锁的极值参数与系统重构拓扑。
+【物理限频原理】：高维物理拓扑的工程转化需要庞大的组织算力消化。若每月输入超过 3 个底层重构逻辑，甲方现有的工程团队认知带宽将被彻底击穿，引发“系统性认知过载（Cognitive Overload）”，导致工程落地全面瘫痪。“3”是人类顶级工业组织消化降维打击的最高物理极值。
+
+4. **强制开源与违约物理清算（Civilizational Open-Source Mandate & Sanctions）**
+【核心红线】：针对每月提供的 3 个拓扑，甲方必须在接收课题后的 3 个自然月期满之时，主动向全人类无条件开源该底层物理拓扑。
+【违约制裁】：若甲方试图通过法务手段拖延开源义务：(i) 本项天价托管特权立即自动作废；(ii) 乙方坚决不予退还任何资金，且保留直接开源更高维度代偿拓扑的权利，彻底清零甲方优势。
+
