@@ -1,4 +1,4 @@
-# 🏛️ The Constitutional Axiom: Trust = Physical Verification
+# 🏛️ The Constitutional Axiom: Trust = Physical Verification V6.1
 
 （省流：一 一个死锁解法一百万美金。二 包年一亿美金。详情看协议。）
 
